@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Исходные файлы\Blocks">
+      <UniqueIdentifier>{16a62f3f-d65f-4c68-8750-d04a0ef046e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Blocks">
+      <UniqueIdentifier>{6642beee-c659-4d14-a261-7fbf4554fc8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы ресурсов\BadInstructions">
+      <UniqueIdentifier>{94ac60ca-bcd2-458a-87ea-4d559477055c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы ресурсов\GoodInstructions">
+      <UniqueIdentifier>{01f5a902-ea65-4aae-b77f-03e429d27771}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="wrkfl.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="wrk.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="IParser.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="ICalculator.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="defs.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="parse.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Calculator.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="bd.h">
+      <Filter>Файлы заголовков\Blocks</Filter>
+    </ClInclude>
+    <ClInclude Include="bg.h">
+      <Filter>Файлы заголовков\Blocks</Filter>
+    </ClInclude>
+    <ClInclude Include="br.h">
+      <Filter>Файлы заголовков\Blocks</Filter>
+    </ClInclude>
+    <ClInclude Include="brep.h">
+      <Filter>Файлы заголовков\Blocks</Filter>
+    </ClInclude>
+    <ClInclude Include="bs.h">
+      <Filter>Файлы заголовков\Blocks</Filter>
+    </ClInclude>
+    <ClInclude Include="bw.h">
+      <Filter>Файлы заголовков\Blocks</Filter>
+    </ClInclude>
+    <ClInclude Include="FileWorker.h">
+      <Filter>Файлы заголовков\Blocks</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="wrkfl.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="workflowexecutor.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="wrk.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="IParser.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="ICalculator.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="parse.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Calculator.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="bd.cpp">
+      <Filter>Исходные файлы\Blocks</Filter>
+    </ClCompile>
+    <ClCompile Include="bw.cpp">
+      <Filter>Исходные файлы\Blocks</Filter>
+    </ClCompile>
+    <ClCompile Include="bg.cpp">
+      <Filter>Исходные файлы\Blocks</Filter>
+    </ClCompile>
+    <ClCompile Include="br.cpp">
+      <Filter>Исходные файлы\Blocks</Filter>
+    </ClCompile>
+    <ClCompile Include="brep.cpp">
+      <Filter>Исходные файлы\Blocks</Filter>
+    </ClCompile>
+    <ClCompile Include="bs.cpp">
+      <Filter>Исходные файлы\Blocks</Filter>
+    </ClCompile>
+    <ClCompile Include="FileWorker.cpp">
+      <Filter>Исходные файлы\Blocks</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="bad\in.txt">
+      <Filter>Файлы ресурсов\BadInstructions</Filter>
+    </Text>
+    <Text Include="bad\workflow_1.txt">
+      <Filter>Файлы ресурсов\BadInstructions</Filter>
+    </Text>
+    <Text Include="bad\workflow_2.txt">
+      <Filter>Файлы ресурсов\BadInstructions</Filter>
+    </Text>
+    <Text Include="bad\workflow_3.txt">
+      <Filter>Файлы ресурсов\BadInstructions</Filter>
+    </Text>
+    <Text Include="bad\workflow_4.txt">
+      <Filter>Файлы ресурсов\BadInstructions</Filter>
+    </Text>
+    <Text Include="bad\workflow_6.txt">
+      <Filter>Файлы ресурсов\BadInstructions</Filter>
+    </Text>
+    <Text Include="bad\workflow_8.txt">
+      <Filter>Файлы ресурсов\BadInstructions</Filter>
+    </Text>
+    <Text Include="good\workflow_1.txt">
+      <Filter>Файлы ресурсов\GoodInstructions</Filter>
+    </Text>
+    <Text Include="good\workflow_2.txt">
+      <Filter>Файлы ресурсов\GoodInstructions</Filter>
+    </Text>
+    <Text Include="good\workflow_3.txt">
+      <Filter>Файлы ресурсов\GoodInstructions</Filter>
+    </Text>
+    <Text Include="good\workflow_4.txt">
+      <Filter>Файлы ресурсов\GoodInstructions</Filter>
+    </Text>
+    <Text Include="good\workflow_5.txt">
+      <Filter>Файлы ресурсов\GoodInstructions</Filter>
+    </Text>
+    <Text Include="good\in1.txt">
+      <Filter>Файлы ресурсов\GoodInstructions</Filter>
+    </Text>
+    <Text Include="good\in2.txt">
+      <Filter>Файлы ресурсов\GoodInstructions</Filter>
+    </Text>
+    <Text Include="good\in3_1.txt">
+      <Filter>Файлы ресурсов\GoodInstructions</Filter>
+    </Text>
+    <Text Include="good\in3_2.txt">
+      <Filter>Файлы ресурсов\GoodInstructions</Filter>
+    </Text>
+    <Text Include="good\in4.txt">
+      <Filter>Файлы ресурсов\GoodInstructions</Filter>
+    </Text>
+    <Text Include="good\in5.txt">
+      <Filter>Файлы ресурсов\GoodInstructions</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
